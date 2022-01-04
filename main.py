@@ -93,8 +93,8 @@ class TrainOREvaluate(object):
                 
             else:
                 train_losses.append(running_loss/len(train_set))
-                print('epoch: ',str(e))
-                print('training_loss: ',str(train_losses[e]))
+                print('epoch: ',str(e), '/', str(epochs))
+                print('Training_loss: ',str(train_losses[e]))
                 print('')
         #pdb.set_trace()
         #Save model
